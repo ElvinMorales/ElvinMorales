@@ -1,16 +1,24 @@
 ## Hi, I'm Elvin (Ale). 👋
 
-I build **governed, auditable agentic-AI systems**, and I think about them as systems you design, version, and inspect, not prompts you tune.
+I'm building public, versioned work around **governed and auditable agentic-AI systems**.
 
-My background is in clinical data and regulated environments, where "it works in the demo" was never good enough. That shaped how I approach AI: the interesting question isn't how you talk to a model, it's what you build around it. Can you version it? Inspect it? Govern it?
+My core idea is simple: agents are not just prompts you tune. They are systems made of artifacts you can design, version, inspect, test, and govern.
+
+Those artifacts include things like manifests, prompts, skills, tool specs, memory/state strategies, schemas, evals, policies, runtime configs, and documentation.
+
+My background is in clinical data and regulated environments, where "it works in the demo" was never good enough. That shaped how I approach AI: the interesting question isn't just how you talk to a model, but what you build around it.
+
+Can you version it?  
+Can you inspect it?  
+Can you govern it?
 
 ### What I'm building
 
-**[agentic-ai-artifact-taxonomy](https://github.com/ElvinMorales/agentic-ai-artifact-taxonomy)**
-A framework-neutral taxonomy of the artifacts agentic AI systems are actually made of, organized around versioning, inspectability, and governability. Shared vocabulary over another clever demo.
+**[agentic-ai-artifact-taxonomy](https://github.com/ElvinMorales/agentic-ai-artifact-taxonomy)**  
+A framework-neutral taxonomy for the artifacts agentic AI systems are made of. The goal is shared vocabulary over another clever demo.
 
-**[journal-agent](https://github.com/ElvinMorales/journal-agent)**
-A working reference implementation of the taxonomy, showing a clean public/private artifact separation: control-plane artifacts stay public and inspectable, private data never touches the repo.
+**[journal-agent](https://github.com/ElvinMorales/journal-agent)**  
+A public reference implementation of the taxonomy, showing a clean public/private artifact separation: control-plane artifacts stay public and inspectable, private data stays private.
 
 ### How I think about this
 
