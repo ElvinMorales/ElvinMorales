@@ -1,12 +1,10 @@
 ## Hi, I'm Elvin (Ale). 👋
 
-I'm building public, versioned work around **governed and auditable agentic-AI systems**.
+I build public, versioned work on **governed, auditable agentic-AI systems**.
 
-My core idea is simple: agents are not just prompts you tune. They are systems made of artifacts you can design, version, inspect, test, and govern.
+The core idea is simple: agents are not just prompts you tune. They are systems made of artifacts you can design, version, inspect, test, and govern. Things like manifests, prompts, skills, tool specs, memory and state strategies, schemas, evals, policies, and runtime configs.
 
-Those artifacts include things like manifests, prompts, skills, tool specs, memory/state strategies, schemas, evals, policies, runtime configs, and documentation.
-
-My background is in clinical data and regulated environments, where "it works in the demo" was never good enough. That shaped how I approach AI: the interesting question isn't just how you talk to a model, but what you build around it.
+My background is in clinical data and regulated environments, where "it works in the demo" was never good enough. That shaped how I think about AI. The interesting question isn't how you talk to a model. It's what you build around it.
 
 Can you version it?  
 Can you inspect it?  
@@ -15,10 +13,16 @@ Can you govern it?
 ### What I'm building
 
 **[agentic-ai-artifact-taxonomy](https://github.com/ElvinMorales/agentic-ai-artifact-taxonomy)**  
-A framework-neutral taxonomy for the artifacts agentic AI systems are made of. The goal is shared vocabulary over another clever demo.
+A framework-neutral taxonomy for the artifacts agentic systems are actually made of. Shared vocabulary over another clever demo. This is the source of truth the rest of my work points back to.
+
+**[agentic-artifact-builder](https://github.com/ElvinMorales/agentic-artifact-builder)** ([try it live](https://elvinmorales.github.io/agentic-artifact-builder/))  
+A small browser app for working with the taxonomy: pick an artifact type, fill in guided fields, and generate clean, public-safe starter files. No install.
+
+**[agent-librarian](https://github.com/ElvinMorales/agent-librarian)**  
+A deterministic CLI that scans an agent repo, catalogs the artifacts it finds, and validates them. The point is making a pile of files reviewable.
 
 **[journal-agent](https://github.com/ElvinMorales/journal-agent)**  
-A public reference implementation of the taxonomy, showing a clean public/private artifact separation: control-plane artifacts stay public and inspectable, private data stays private.
+A reference implementation of the taxonomy with a clean public/private split: control-plane artifacts stay public and inspectable, private data stays private.
 
 ### How I think about this
 
@@ -28,4 +32,4 @@ A public reference implementation of the taxonomy, showing a clean public/privat
 
 ### Elsewhere
 
-- LinkedIn: https://www.linkedin.com/in/elvinamorales
+- LinkedIn: https://www.linkedin.com/in/elvinamoralesagent/
