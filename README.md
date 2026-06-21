@@ -24,6 +24,9 @@ A deterministic CLI that scans an agent repo, catalogs the artifacts it finds, a
 **[journal-agent](https://github.com/ElvinMorales/journal-agent)**  
 A reference implementation of the taxonomy with a clean public/private split: control-plane artifacts stay public and inspectable, private data stays private.
 
+**[strategic-mirror-agent](https://github.com/ElvinMorales/strategic-mirror-agent)**  
+A public-safe, file-first scaffold for a personal career and workplace communication coach. It demonstrates how to separate identity, prompts, memory, state, guardrails, connector policy, schemas, evals, and private runtime boundaries.
+
 ### How I think about this
 
 - **Governed > clever.** An AI you can't audit isn't a system. It's a liability with good manners.
