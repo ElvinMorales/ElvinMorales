@@ -35,4 +35,4 @@ A public-safe, file-first scaffold for a personal career and workplace communica
 
 ### Elsewhere
 
-- LinkedIn: https://www.linkedin.com/in/elvinamoralesagent/
+- LinkedIn: [https://www.linkedin.com/in/elvinamorales](https://www.linkedin.com/in/elvinamorales/)
