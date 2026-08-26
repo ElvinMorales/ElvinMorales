@@ -13,16 +13,16 @@ Can you govern it?
 ### What I'm building
 
 **[agentic-ai-artifact-taxonomy](https://github.com/ElvinMorales/agentic-ai-artifact-taxonomy)**  
-A framework-neutral taxonomy for the artifacts agentic systems are actually made of. Shared vocabulary over another clever demo. This is the source of truth the rest of my work points back to.
+A framework-neutral taxonomy for the artifacts agentic systems are actually made of, organized by lifecycle (design-time, runtime, iteration) and mapped to protocols like MCP and A2A. Shared vocabulary over another clever demo. This is the source of truth the rest of my work points back to.
 
 **[agentic-artifact-builder](https://github.com/ElvinMorales/agentic-artifact-builder)** ([try it live](https://elvinmorales.github.io/agentic-artifact-builder/))  
-A small browser app for working with the taxonomy: pick an artifact type, fill in guided fields, and generate clean, public-safe starter files. No install.
+A small browser app for learning and working with the taxonomy: browse artifact types by lifecycle stage, fill in guided fields, and generate clean, public-safe starter files. No install.
 
 **[agent-librarian](https://github.com/ElvinMorales/agent-librarian)**  
-A deterministic CLI that scans an agent repo, catalogs the artifacts it finds, and validates them. The point is making a pile of files reviewable.
+A deterministic CLI that scans an agent repo, catalogs the artifacts it finds, validates them, and flags likely overlap for human review rather than auto-deduplicating. The point is making a pile of files reviewable.
 
 **[journal-agent](https://github.com/ElvinMorales/journal-agent)**  
-A reference implementation of the taxonomy with a clean public/private split: control-plane artifacts stay public and inspectable, private data stays private.
+A private-first journaling companion built on the taxonomy, with a local MCP server for reviewing memory and state proposals. Control-plane artifacts stay public; journal entries stay local.
 
 **[strategic-mirror-agent](https://github.com/ElvinMorales/strategic-mirror-agent)**  
 A public-safe, file-first scaffold for a personal career and workplace communication coach. It demonstrates how to separate identity, prompts, memory, state, guardrails, connector policy, schemas, evals, and private runtime boundaries.
